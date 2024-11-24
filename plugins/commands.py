@@ -56,7 +56,7 @@ async def start(client, message):
         await db.add_user(user.id, message.from_user.mention)
         await client.send_message(
             chat_id=Config.LOG_CHANNEL,
-            text=f"#NewUser\n\nIᴅ - {user.id}\nNᴀᴍᴇ - {message.from_user.mention}"
+            text=f"#NewUser Forward Botx\n\nIᴅ - {user.id}\nNᴀᴍᴇ - {message.from_user.mention}"
         )
     reply_markup = InlineKeyboardMarkup(main_buttons)
     await client.send_photo(
