@@ -47,7 +47,7 @@ async def start(client, message):
             await client.send_photo(
                 chat_id=message.chat.id,
                 photo="https://example.com/force_sub.jpg",
-                caption="**ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ.**",
+                caption="**If you want to use me first you need to join our update channel. \n\n First, click on the ✇ Join Our Updates Channel ✇ button, then click on the Request to Join button. \n\n After that, click on the Try Again button..**",
                 reply_markup=InlineKeyboardMarkup(join_button)
             )
             return
