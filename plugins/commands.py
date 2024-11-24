@@ -16,12 +16,13 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMedi
 # For Any Kind Of Error Ask Us In Support Group @Silicon_Botz 
 
 main_buttons = [[
-        InlineKeyboardButton('❗️ʜᴇʟᴘ', callback_data='help')
+        InlineKeyboardButton('🛠️ ʜᴇʟᴘ ⚙️', callback_data='help'),
+        InlineKeyboardButton('😎 Aʙᴏᴜᴛ', callback_data='about')
         ],[
-        InlineKeyboardButton('📜 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/PRIME_DISCUSSION_GROUP'),
+        InlineKeyboardButton('📜 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/Prime_Botz_Support'),
         InlineKeyboardButton('📢 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Prime_Botz')
         ],[
-        InlineKeyboardButton('💳 ᴅᴏɴᴀᴛᴇ', callback_data='donate')
+        InlineKeyboardButton('🧑‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🧑‍💻', url='https://t.me/Prime_Admin_Nayem')
         ]]
 #===================Start Function===================#
 
