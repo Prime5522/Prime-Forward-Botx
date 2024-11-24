@@ -32,9 +32,10 @@ async def start(client, message):
         try:
             member = await client.get_chat_member(Config.FORCE_SUB_CHANNEL, user.id)
             if member.status == "kicked":
-                await client.send_message(
+                await client.send_photo(
                     chat_id=message.chat.id,
-                    text="You are banned from using this bot.",
+                    photo="https://example.com/banned.jpg",
+                    caption="You are banned from using this bot.",
                 )
                 return
         except:
@@ -43,9 +44,10 @@ async def start(client, message):
                 [InlineKeyboardButton("ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"{Config.FORCE_SUB_CHANNEL}")],
                 [InlineKeyboardButton("↻ ᴛʀʏ ᴀɢᴀɪɴ", url=f"https://telegram.me/{client.username}?start=start")]
             ]
-            await client.send_message(
+            await client.send_photo(
                 chat_id=message.chat.id,
-                text="ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ.",
+                photo="https://example.com/force_sub.jpg",
+                caption="**ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ.**",
                 reply_markup=InlineKeyboardMarkup(join_button)
             )
             return
@@ -57,10 +59,12 @@ async def start(client, message):
             text=f"#NewUser\n\nIᴅ - {user.id}\nNᴀᴍᴇ - {message.from_user.mention}"
         )
     reply_markup = InlineKeyboardMarkup(main_buttons)
-    await client.send_message(
+    await client.send_photo(
         chat_id=message.chat.id,
-        reply_markup=InlineKeyboardMarkup(main_buttons),
-        text=Translation.START_TXT.format(message.from_user.first_name))
+        photo="https://example.com/welcome.jpg",
+        caption=Translation.START_TXT.format(message.from_user.first_name),
+        reply_markup=reply_markup
+    )
 
 #Dont Remove My Credit @Silicon_Bot_Update 
 #This Repo Is By @Silicon_Official 
@@ -76,7 +80,7 @@ async def restart(client, message):
     await asyncio.sleep(5)
     await msg.edit("<i>sᴇʀᴠᴇʀ ʀᴇsᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ✅</i>")
     os.execl(sys.executable, sys.executable, *sys.argv)
-    
+
 #==================Callback Functions==================#
 
 @Client.on_callback_query(filters.regex(r'^help'))
