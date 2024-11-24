@@ -81,7 +81,7 @@ class Translation(object):
 ║┃
 ║┣⪼🔍 ᴜɴᴇǫᴜɪꜰʏɪɴɢs: <code>0</code>
 ║┃
-║┣⪼🌟ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href="https://t.me/Prime_Botz">ᴘʀɪᴍᴇ ʙᴏᴛᴢ 🔥</a>
+║┣⪼🌟 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href="https://t.me/Prime_Botz">ᴘʀɪᴍᴇ ʙᴏᴛᴢ 🔥</a>
 ║╰━━━━━━━━━━━━━━━➣
 ╚══════════════════❍⊱❁</b>""" 
 
