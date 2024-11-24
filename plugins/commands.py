@@ -96,7 +96,7 @@ async def helpcb(bot, query):
             InlineKeyboardButton('• sᴛᴀᴛᴜs ', callback_data='status')
             ],[
             InlineKeyboardButton('• ʙᴀᴄᴋ', callback_data='back'),
-            InlineKeyboardButton('• ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('💳 ᴅᴏɴᴀᴛᴇ', callback_data='donate')
             ]]
         ))
 
