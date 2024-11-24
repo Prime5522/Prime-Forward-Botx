@@ -61,7 +61,7 @@ async def start(client, message):
     reply_markup = InlineKeyboardMarkup(main_buttons)
     await client.send_photo(
         chat_id=message.chat.id,
-        photo="https://example.com/welcome.jpg",
+        photo="https://envs.sh/KgL.jpg",
         caption=Translation.START_TXT.format(message.from_user.first_name),
         reply_markup=reply_markup
     )
