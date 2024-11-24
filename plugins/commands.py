@@ -41,8 +41,8 @@ async def start(client, message):
         except:
             # Send a message asking the user to join the channel
             join_button = [
-                [InlineKeyboardButton("ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"{Config.FORCE_SUB_CHANNEL}")],
-                [InlineKeyboardButton("↻ ᴛʀʏ ᴀɢᴀɪɴ", url=f"https://telegram.me/{client.username}?start=start")]
+                [InlineKeyboardButton("✇ Join Our Updates Channel ✇", url=f"{Config.FORCE_SUB_CHANNEL}")],
+                [InlineKeyboardButton("↻ ᴛʀʏ ᴀɢᴀɪɴ ↻", url=f"https://telegram.me/{client.username}?start=start")]
             ]
             await client.send_photo(
                 chat_id=message.chat.id,
