@@ -34,7 +34,7 @@ async def start(client, message):
             if member.status == "kicked":
                 await client.send_photo(
                     chat_id=message.chat.id,
-                    photo="https://example.com/banned.jpg",
+                    photo="https://envs.sh/Kgq.jpg",
                     caption="You are banned from using this bot.",
                 )
                 return
@@ -46,7 +46,7 @@ async def start(client, message):
             ]
             await client.send_photo(
                 chat_id=message.chat.id,
-                photo="https://example.com/force_sub.jpg",
+                photo="https://envs.sh/KgA.jpg",
                 caption="**If you want to use me first you need to join our update channel. \n\n First, click on the ✇ Join Our Updates Channel ✇ button, then click on the Request to Join button. \n\n After that, click on the Try Again button..**",
                 reply_markup=InlineKeyboardMarkup(join_button)
             )
