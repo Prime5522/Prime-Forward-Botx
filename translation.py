@@ -9,7 +9,7 @@ class Translation(object):
 
 ᴄʟɪᴄᴋ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ
 
-<blockquote>🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/Prime_Botz">𝐏𝐑𝐈𝐌𝐄 𝐁𝐎𝐓𝐳 🔥</a></blockquote></b>"""
+<blockquote>🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/Prime_Botz">ᴘʀɪᴍᴇ ʙᴏᴛᴢ 🔥</a></blockquote></b>"""
 
 
   DONATE_TXT = """<b><i>If you liked me ❤️. consider make a donation to support my developer 👦
@@ -57,7 +57,8 @@ class Translation(object):
 ╔════❰ ғᴏʀᴡᴀʀᴅ ʙᴏᴛ ❱═❍⊱❁
 ║╭━━━━━━━━━━━━━━━➣
 ║┣⪼📃ʙᴏᴛ : ғᴏʀᴡᴀʀᴅ ʙᴏᴛ
-║┣⪼👦ᴄʀᴇᴀᴛᴏʀ : ʀᴀʜᴜʟ
+║┣⪼👦ᴄʀᴇᴀᴛᴏʀ : <a href="https://t.me/Prime_Admin_Nayem">ᴍʀ.ᴘʀɪᴍᴇ ✨</a>
+║┣⪼🌟ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href="https://t.me/Prime_Botz">ᴘʀɪᴍᴇ ʙᴏᴛᴢ 🔥</a>
 ║┣⪼📡ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ
 ║┣⪼🗣️ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ3
 ║┣⪼📚ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ
@@ -79,6 +80,8 @@ class Translation(object):
 ║┣⪼🔃 ғᴏʀᴡᴀʀᴅɪɴɢs : <code>{}</code>
 ║┃
 ║┣⪼🔍 ᴜɴᴇǫᴜɪꜰʏɪɴɢs: <code>0</code>
+║┃
+║┣⪼🌟ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href="https://t.me/Prime_Botz">ᴘʀɪᴍᴇ ʙᴏᴛᴢ 🔥</a>
 ║╰━━━━━━━━━━━━━━━➣
 ╚══════════════════❍⊱❁</b>""" 
 
@@ -90,6 +93,7 @@ class Translation(object):
 ║┣⪼ ꜰʀᴇᴇ: <code>36.46 GB</code>
 ║┣⪼ ᴄᴘᴜ: <code>{}%</code>
 ║┣⪼ ʀᴀᴍ: <code>{}%</code>
+║┣⪼ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href="https://t.me/Prime_Botz">ᴘʀɪᴍᴇ ʙᴏᴛᴢ 🔥</a>
 ║╰━━━━━━━━━━━━━━━➣
 ╚══════════════════❍⊱❁۪۪</b>"""
   
@@ -128,6 +132,8 @@ class Translation(object):
 ║┣⪼<b>𖨠 ᴄᴜʀʀᴇɴᴛ sᴛᴀᴛᴜs: </b> <code>{}</code>
 ║┃
 ║┣⪼<b>𖨠 ᴘᴇʀᴄᴇɴᴛᴀɢᴇ: </b> <code>{}</code>%
+║┃
+║┣⪼<b>🌟 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : </b> <a href="https://t.me/Prime_Botz">ᴘʀɪᴍᴇ ʙᴏᴛᴢ 🔥</a>
 ║╰━━━━━━━━━━━━━━━➣ 
 ╚════❰ <b>{}</b> ❱══❍⊱❁"""
 
