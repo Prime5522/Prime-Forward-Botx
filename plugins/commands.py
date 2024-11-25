@@ -222,7 +222,19 @@ async def server_status(bot, query):
 #===================Donate Function===================#
 
 @Client.on_message(filters.private & filters.command(['donate']))
-async def restart(client, message):
-    msg = await message.reply_text(
-        text="<i>__If you liked my service❤__.\n\nConsider and make a donation to support my developer 👦\n\n\nUPI ID - `RahulReviews@UPI`</i>"
-        )
+async def donate(client, message):
+    await message.reply_photo(
+        photo="https://envs.sh/AR9.jpg",  # আপনার পছন্দের পিকচারের URL দিন
+        caption="""<b>💵 𝗔𝗡𝗬 𝗖𝗢𝗨𝗡𝗧𝗥𝗬 𝗔𝗟𝗟 𝗣𝗔𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗 𝗔𝗩𝗔𝗜𝗟𝗔𝗕𝗟𝗘.</b>
+
+যদি বিকাশ বা 𝗤𝗥 কোড ছাড়া অথবা অন্য কিছু মাধ্যমে
+পেমেন্ট করতে চাইলে অথবা আরো কিছু জানার থাকলে:
+
+<b>𝗖𝗢𝗡𝗡𝗘𝗖𝗧 𝗔𝗗𝗠𝗜𝗡 ➠ <a href="https://t.me/Prime_Admin_Support_ProBot">𝐌𝐑.𝐏𝐑𝐈𝐌𝐄</a></b>
+        """,
+        reply_markup=InlineKeyboardMarkup([
+            [InlineKeyboardButton('Donate Now', url='https://envs.sh/AR9.jpg')],
+            [InlineKeyboardButton('Back to Menu', callback_data='help')]
+        ]),
+        parse_mode=enums.ParseMode.HTML
+    )
