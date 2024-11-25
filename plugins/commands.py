@@ -97,6 +97,8 @@ async def helpcb(bot, query):
             ],[
             InlineKeyboardButton('• ʙᴀᴄᴋ', callback_data='back'),
             InlineKeyboardButton('💳 ᴅᴏɴᴀᴛᴇ', callback_data='donate')
+            ],[
+            InlineKeyboardButton('•📜 ᴘʀɪᴍᴇ ʙᴏᴛz sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 📜•', url='https://t.me/Prime_Botz_Support')
             ]]
         ))
 
