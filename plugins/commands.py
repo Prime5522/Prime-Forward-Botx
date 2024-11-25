@@ -144,12 +144,18 @@ async def about(bot, query):
 
 @Client.on_callback_query(filters.regex(r'^donate'))
 async def donate(bot, query):
-    await query.message.edit_text(
-        text=Translation.DONATE_TXT,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('• ʙᴀᴄᴋ', callback_data='back')]]),
-        disable_web_page_preview=True,
-        parse_mode=enums.ParseMode.HTML,
-    )
+    await query.message.reply_photo(
+        photo="https://envs.sh/AR9.jpg",  # এখানে পিকচারের URL দিন
+        caption="""<i>💵 𝗔𝗡𝗬 𝗖𝗢𝗨𝗡𝗧𝗥𝗬 𝗔𝗟𝗟 𝗣𝗔𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗 𝗔𝗩𝗔𝗜𝗟𝗔𝗕𝗟𝗘.
+        যদি বিকাশ বা 𝗤𝗥 কোড ছাড়া অথবা অন্য কিছু মাধ্যমে
+        পেমেন্ট করতে চাইলে অথবা আরো কিছু জানার থাকলে
+        𝗖𝗢𝗡𝗡𝗘𝗖𝗧 𝗔𝗗𝗠𝗜𝗡 ➠ <a href="https://t.me/Prime_Admin_Support_ProBot">𝐌𝐑.𝐏𝐑𝐈𝐌𝐄</a></i>""",
+        reply_markup=InlineKeyboardMarkup([
+            [InlineKeyboardButton('Donate Now', url='https://envs.sh/AR9.jpg')],
+            [InlineKeyboardButton('• ʙᴀᴄᴋ', callback_data='back')]
+        ]),
+        parse_mode=enums.ParseMode.HTML
+     )
 
 START_TIME = datetime.datetime.now()
 
@@ -237,4 +243,4 @@ async def donate(client, message):
             [InlineKeyboardButton('Back to Menu', callback_data='help')]
         ]),
         parse_mode=enums.ParseMode.HTML
-    )
+    )   
