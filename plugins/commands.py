@@ -108,7 +108,10 @@ async def helpcb(bot, query):
 async def how_to_use(bot, query):
     await query.message.edit_text(
         text=Translation.HOW_USE_TXT,
-             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('• ʙᴀᴄᴋ', callback_data='help')]]),
+        reply_markup=InlineKeyboardMarkup([
+            [InlineKeyboardButton('• ᴘʀɪᴍᴇ ʙᴏᴛz sᴜᴘᴘᴏʀᴛ •', url='https://t.me/Prime_Botz_Support')],
+            [InlineKeyboardButton('• ʙᴀᴄᴋ •', callback_data='help')]
+        ]),
         disable_web_page_preview=True
     )
 
