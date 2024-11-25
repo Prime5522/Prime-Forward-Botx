@@ -144,7 +144,8 @@ async def about(bot, query):
 
 @Client.on_callback_query(filters.regex(r'^donate'))
 async def donate(bot, query):
-    await query.message.edit_text(
+    await query.message.reply_photo(
+        photo="https://envs.sh/AR9.jpg",
         text=Translation.DONATE_TXT,
         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('• ʙᴀᴄᴋ', callback_data='back')]]),
         disable_web_page_preview=True,
