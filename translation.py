@@ -37,7 +37,8 @@ class Translation(object):
 ► __Skip duplicate messages__
 ► __Filter type of messages__
 ► __Skip messages based on extensions & keywords & size__
-𝗜ғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴋɪɴᴅ ᴏғ ɪ𝘀𝘀ᴜᴇ, ᴘʀᴏʙʟᴇᴍ ᴏʀ ɴᴇᴇᴅ 𝘀ᴜᴘᴘᴏʀᴛ ᴡʜɪʟᴇ ᴜ𝘀ɪɴɢ ᴛʜɪ𝘀 ʙᴏᴛ, ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴍᴇ𝘀𝘀ᴀɢᴇ ᴏᴜʀ 𝘀ᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴀɴᴅ ɪᴛ ᴡɪʟʟ ʙᴇ 𝘀ᴏʟᴠᴇᴅ ғʀᴏᴍ ᴛʜᴇʀᴇ.➠ ᴘʀɪᴍᴇ ʙᴏᴛ'ꜱ sᴜᴘᴘᴏʀᴛ</b>
+
+⏣►📃 𝗜ғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴋɪɴᴅ ᴏғ ɪ𝘀𝘀ᴜᴇ, ᴘʀᴏʙʟᴇᴍ ᴏʀ ɴᴇᴇᴅ 𝘀ᴜᴘᴘᴏʀᴛ ᴡʜɪʟᴇ ᴜ𝘀ɪɴɢ ᴛʜɪ𝘀 ʙᴏᴛ, ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴍᴇ𝘀𝘀ᴀɢᴇ ᴏᴜʀ 𝘀ᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴀɴᴅ ɪᴛ ᴡɪʟʟ ʙᴇ 𝘀ᴏʟᴠᴇᴅ ғʀᴏᴍ ᴛʜᴇʀᴇ.➠ <a href="https://t.me/Prime_Botz_Support">ᴘʀɪᴍᴇ ʙᴏᴛ'ꜱ sᴜᴘᴘᴏʀᴛ</a></b>
 """
 #Dont Remove My Credit @Silicon_Bot_Update 
 #This Repo Is By @Silicon_Official 
@@ -48,7 +49,9 @@ class Translation(object):
 ► __add atleast one to channel__ `(your bot/userbot must be admin in there)`
 ► __You can add chats or bots by using /settings__
 ► __if the **From Channel** is private your userbot must be member in there or your bot must need admin permission in there also__
-► __Then use /forward to forward messages__</b>"""
+► __Then use /forward to forward messages__
+
+⏣►📃 𝗜ғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴋɪɴᴅ ᴏғ ɪ𝘀𝘀ᴜᴇ, ᴘʀᴏʙʟᴇᴍ ᴏʀ ɴᴇᴇᴅ 𝘀ᴜᴘᴘᴏʀᴛ ᴡʜɪʟᴇ ᴜ𝘀ɪɴɢ ᴛʜɪ𝘀 ʙᴏᴛ, ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴍᴇ𝘀𝘀ᴀɢᴇ ᴏᴜʀ 𝘀ᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴀɴᴅ ɪᴛ ᴡɪʟʟ ʙᴇ 𝘀ᴏʟᴠᴇᴅ ғʀᴏᴍ ᴛʜᴇʀᴇ.➠ <a href="https://t.me/Prime_Botz_Support">ᴘʀɪᴍᴇ ʙᴏᴛ'ꜱ sᴜᴘᴘᴏʀᴛ</a></b>"""
 
 #Dont Remove My Credit @Silicon_Bot_Update 
 #This Repo Is By @Silicon_Official 
@@ -57,7 +60,7 @@ class Translation(object):
   ABOUT_TXT = """<b>
 ╔════❰ ғᴏʀᴡᴀʀᴅ ʙᴏᴛ ❱═❍⊱❁
 ║╭━━━━━━━━━━━━━━━➣
-║┣⪼📃ʙᴏᴛ : ғᴏʀᴡᴀʀᴅ ʙᴏᴛ
+║┣⪼📃ʙᴏᴛ : <a href="https://t.me/Prime_Auto_Forward_ProBot">ғᴏʀᴡᴀʀᴅ ʙᴏᴛ</a>
 ║┣⪼👦ᴄʀᴇᴀᴛᴏʀ : <a href="https://t.me/Prime_Admin_Nayem">ᴍʀ.ᴘʀɪᴍᴇ ✨</a>
 ║┣⪼🌟ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href="https://t.me/Prime_Botz">ᴘʀɪᴍᴇ ʙᴏᴛᴢ 🔥</a>
 ║┣⪼📡ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ
