@@ -219,9 +219,9 @@ async def edit(msg, title, status, sts):
    text = TEXT.format(i.total, i.fetched, i.total_files, i.duplicate, i.deleted, i.skip, i.filtered, status, percentage, title)
    if status in ["ᴄᴀɴᴄᴇʟʟᴇᴅ", "ᴄᴏᴍᴘʟᴇᴛᴇᴅ"]:
       button.append(
-         [InlineKeyboardButton('💟sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ💟', url='https://t.me/PRIME_DISCUSSION_GROUP')])
+         [InlineKeyboardButton('💠 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ 💠', url='https://t.me/Prime_Botz')])
       button.append(
-         [InlineKeyboardButton('💠ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ💠', url='https://t.me/Prime_Botz')]
+         [InlineKeyboardButton('💟 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 💟', url='https://t.me/Prime_Botz_Support')]
          )
    else:
       button.append([InlineKeyboardButton('• ᴄᴀɴᴄᴇʟ', 'terminate_frwd')])
